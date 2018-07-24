@@ -20,7 +20,7 @@ Clock css styles
 .circle {
     fill: none;
     stroke: #000;
-    stroke-width: 9;
+    stroke-width: 12px;
     stroke-miterlimit: 10;
 }
 
@@ -36,21 +36,21 @@ Clock css styles
 
 .hour-arm {
     fill: none;
-    stroke: #000;
+    stroke: #b30000;
     stroke-width: 17;
     stroke-miterlimit: 10;
 }
 
 .minute-arm {
     fill: none;
-    stroke: #000;
+    stroke: #0059b3;
     stroke-width: 11;
     stroke-miterlimit: 10;
 }
 
 .second-arm {
     fill: none;
-    stroke: #000;
+    stroke: #00e600;
     stroke-width: 4;
     stroke-miterlimit: 10;
 }
