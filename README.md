@@ -3,6 +3,8 @@
 This project is a practical demo of JavaScript concepts,
 use JavaScript and CSS to create a working analog clock
 
+![Analog Clock](./img/ScreenShot.jpg)
+
 JavaScript training course by:
 * **[Morten Rand-Hendriksen](https://www.linkedin.com/in/mortenrandhendriksen/?trk=lil_course)**
 
