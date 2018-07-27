@@ -1,7 +1,7 @@
 # Analog-Clock-JS
 
 This project is a practical demo of JavaScript concepts,
-use JavaScript and CSS to create a working analog clock running on the browser.
+HTML and CSS to create a working analog clock running on the browser.
 
 ![Analog Clock](./img/ScreenShot.jpg)
 
