@@ -1,8 +1,10 @@
+/*----------------------------------------------------------------------------*/
 // constant variables
 const HOURHAND = document.querySelector("#hour");
 const MINUTEHAND = document.querySelector("#minute");
 const SECONDHAND = document.querySelector("#second");
 
+// get current date and time
 var date = new Date();
 console.log(date);
 
@@ -30,3 +32,4 @@ function runTheClock() {
 
 // run runTheClock function every second
 var interval = setInterval(runTheClock, 1000);
+/*----------------------------------------------------------------------------*/
