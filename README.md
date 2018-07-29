@@ -1,11 +1,11 @@
 # Analog-Clock-JS
 
 This project is a practical demo of JavaScript concepts,
-use JavaScript and CSS to create a working analog clock running on the browser.
+HTML and CSS to create a working analog clock running on the browser.
 
 ![Analog Clock](./img/ScreenShot.jpg)
 
-JavaScript training course by:
+JavaScript Training Course by:
 * **[Morten Rand-Hendriksen](https://www.linkedin.com/in/mortenrandhendriksen/?trk=lil_course)**
 
 ## Author
@@ -14,4 +14,4 @@ JavaScript training course by:
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE)© [Yann Mulonda](https://github.com/YannMjl) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE)© [Yann Mulonda](https://github.com/YannMjl) file for details.
