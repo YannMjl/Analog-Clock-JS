@@ -1,14 +1,11 @@
 /*----------------------------------------------------------------------------*/
-// constant variables
 const HOURHAND = document.querySelector("#hour");
 const MINUTEHAND = document.querySelector("#minute");
 const SECONDHAND = document.querySelector("#second");
 
-// get current date and time
 var date = new Date();
 console.log(date);
 
-// now let get the hour, minute and second
 let hr = date.getHours();
 let min = date.getMinutes();
 let sec = date.getSeconds();
