@@ -3,7 +3,7 @@
 This project is a practical demo of JavaScript concepts,
 HTML, and CSS to create a working analog clock running on the browser.
 
-<h2 id="screenshots">Screenshot</h2>
+## Screenshot
 
 ![Analog Clock](./img/screenshot.png)
 
