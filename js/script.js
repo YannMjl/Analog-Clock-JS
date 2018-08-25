@@ -8,6 +8,7 @@ var date = new Date();
 let hr = date.getHours();
 let min = date.getMinutes();
 let sec = date.getSeconds();
+
 console.log("The curent time is: ", hr + ":" + min + ":" + sec);
 
 // let convert hour, minute and seconds into degree to be display on the clockbox
