@@ -8,6 +8,7 @@ HTML, and CSS to create a working analog clock running on the browser.
 ![Analog Clock](./img/screenshot.png)
 
 JavaScript Training Course by:
+
 * **[Morten Rand-Hendriksen](https://www.linkedin.com/in/mortenrandhendriksen/?trk=lil_course)**
 
 ## Author
