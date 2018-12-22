@@ -1,6 +1,6 @@
 # Analog-Clock-JS
 
-This project is a practical demo of JavaScript concepts,
+This is a practical demo of JavaScript concepts,
 HTML, and CSS to create a working analog clock running on the browser.
 
 ## ScreenShot
