@@ -1,3 +1,11 @@
+// Do some stuff when page hmtl page is launched
+$(document).ready(function () {
+
+  $("#headerTitle").hide(300).show(1500);
+  // calling show food menu function
+  // showClock();
+});
+
 /*----------------------------------------------------------------------------*/
 const HOURHAND = document.querySelector("#hour");
 const MINUTEHAND = document.querySelector("#minute");
