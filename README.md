@@ -4,7 +4,7 @@ This is a practical demo of JavaScript concepts, HTML, and CSS to create a worki
 
 ## ScreenShot
 
-![Analog Clock](./img/screenshot.png)
+![Analog Clock](./img/clock,gif)
 
 JavaScript Training Course by:
 
