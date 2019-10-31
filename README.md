@@ -6,10 +6,6 @@ This is a practical demo of JavaScript concepts, HTML, and CSS to create a worki
 
 ![Analog Clock](./img/clock.gif)
 
-JavaScript Training Course by:
-
-* **[Morten Rand-Hendriksen](https://www.linkedin.com/in/mortenrandhendriksen/?trk=lil_course)**
-
 ## Author
 
 * **[Yann Mulonda](https://github.com/YannMjl)**
