@@ -23,36 +23,83 @@
 <body>
 
   <div class="container">
-
-    <div class="jumbotron" style="text-align: center;">
-      <h1 id="headerTitle">JavaScript Analog Clock</h1>
-    </div>
     
     <main class="main">
-      <div class="clockbox">
-        <svg id="clock" xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 600 600">
-          <g id="face">
-            <circle class="circle" cx="300" cy="300" r="253.9" />
-            <path class="hour-marks"
-              d="M300.5 94V61M506 300.5h32M300.5 506v33M94 300.5H60M411.3 107.8l7.9-13.8M493 190.2l13-7.4M492.1 411.4l16.5 9.5M411 492.3l8.9 15.3M189 492.3l-9.2 15.9M107.7 411L93 419.5M107.5 189.3l-17.1-9.9M188.1 108.2l-9-15.6" />
-            <circle class="mid-circle" cx="300" cy="300" r="16.2" />
-          </g>
-          <g id="hour">
-            <path class="hour-arm" d="M300.5 298V142" />
-            <circle class="sizing-box" cx="300" cy="300" r="253.9" />
-          </g>
-          <g id="minute">
-            <path class="minute-arm" d="M300.5 298V67" />
-            <circle class="sizing-box" cx="300" cy="300" r="253.9" />
-          </g>
-          <g id="second">
-            <path class="second-arm" d="M300.5 350V55" />
-            <circle class="sizing-box" cx="300" cy="300" r="253.9" />
-          </g>
-        </svg>
-      </div>
+
+        <div class="jumbotron" style="text-align: center;">
+
+            <h1 id="headerTitle">JavaScript Analog Clock</h1>
+
+            <svg id="clock" class="clockbox my-5" xmlns="http://www.w3.org/2000/svg" width="100%"
+                viewBox="0 0 600 600">
+                <g id="face">
+                    <circle class="circle" cx="300" cy="300" r="253.9" />
+                    <path class="hour-marks"
+                        d="M300.5 94V61M506 300.5h32M300.5 506v33M94 300.5H60M411.3 107.8l7.9-13.8M493 190.2l13-7.4M492.1 411.4l16.5 9.5M411 492.3l8.9 15.3M189 492.3l-9.2 15.9M107.7 411L93 419.5M107.5 189.3l-17.1-9.9M188.1 108.2l-9-15.6" />
+                    <circle class="mid-circle" cx="300" cy="300" r="16.2" />
+                </g>
+                <g id="hour">
+                    <path class="hour-arm" d="M300.5 298V142" />
+                    <circle class="sizing-box" cx="300" cy="300" r="253.9" />
+                </g>
+                <g id="minute">
+                    <path class="minute-arm" d="M300.5 298V67" />
+                    <circle class="sizing-box" cx="300" cy="300" r="253.9" />
+                </g>
+                <g id="second">
+                    <path class="second-arm" d="M300.5 350V55" />
+                    <circle class="sizing-box" cx="300" cy="300" r="253.9" />
+                </g>
+            </svg>
+
+        </div>
+
     </main>
 
+  </div>
+
+  <!-- footer -->
+  <div class="grey heavy-rain-gradient">
+    <div class="container">
+  
+      <!-- Grid row-->
+      <div class="row py-4 d-flex align-items-center">
+  
+        <!-- Grid column -->
+        <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+  
+          <h6 class="mb-0 text-dark">Get connected with me on social networks!</h6>
+  
+        </div>
+        <!-- Grid column -->
+  
+        <!-- Grid column -->
+        <div class="col-md-6 col-lg-7 text-center text-md-right">
+  
+          <!-- Facebook -->
+          <a class="fb-ic" style="font-size: 1.25rem;" href="https://www.facebook.com/yann.mjl" target="blank">
+            <i class="fa fa-facebook fa-2x blue-text mr-4"> </i>
+          </a>
+          <!-- Twitter -->
+          <a class="tw-ic" style="font-size: 1.25rem;" href="https://twitter.com/YannMjl" target="blank">
+            <i class="fa fa-twitter fa-2x text-info mr-4"> </i>
+          </a>
+          <!--Linkedin -->
+          <a class="li-ic" style="font-size: 1.25rem;" href="https://www.linkedin.com/in/yannmjl/" target="blank">
+            <i class="fa fa-linkedin fa-2x blue-text mr-4"> </i>
+          </a>
+          <!--Instagram-->
+          <a class="ins-ic" style="font-size: 1.25rem;" href="https://www.instagram.com/yannmjl/" target="blank">
+            <i class="fa fa-instagram fa-2x pink-text"> </i>
+          </a>
+  
+        </div>
+        <!-- Grid column -->
+  
+      </div>
+      <!-- Grid row-->
+  
+    </div>
   </div>
 
 </body>
