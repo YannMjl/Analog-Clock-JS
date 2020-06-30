@@ -24,9 +24,8 @@ jobs:
 
     # Runs a single command using the runners shell
     - name: deploy html page
-      uses: JamesIves/github-pages-deploy-action@releases/v3
+      uses: ./
       with:
         ACCESS_TOKEN: ${{ secrets.demo_PAT }}
-        BRANCH: gh-pages
-        FOLDER: dist
+        remote_url: https://github.com/appleboy/gh-pages-action.git
 
