@@ -24,9 +24,9 @@ jobs:
 
     # Runs a single command using the runners shell
     - name: deploy html page
-      uses: ./
+      uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
-        remote_url: https://github.com/YannMjl/gh-pages-action.git
+        branch: gh-pages
 
