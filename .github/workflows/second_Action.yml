@@ -26,7 +26,6 @@ jobs:
     - name: deploy html page
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
-        username: ${{ secrets.USERNAME }}
-        password: ${{ secrets.PASSWORD }}
-        branch: gh-pages
+        ACCESS_TOKEN: ${{ secrets.demo_PAT }}
+        BRANCH: gh-pages
 
