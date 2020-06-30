@@ -28,4 +28,5 @@ jobs:
       with:
         ACCESS_TOKEN: ${{ secrets.demo_PAT }}
         BRANCH: gh-pages
+        FOLDER: dist
 
