@@ -49,8 +49,6 @@ jobs:
     runs-on: ubuntu-latest
     # only run if on pull request
     if: github.env_name == 'pull_request' 
-    # only run if build job complte successfully 
-    needs: [build]
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -63,3 +61,26 @@ jobs:
         echo hello! my name is $name, nice to meet you!
         echo Add other actions to build,
         echo test, and deploy your project.
+        
+  # Deploy if the app is build successfully     
+  deploy_if_build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+    # only run if build job complte successfully 
+    needs: [build]
+    #test the app on many matrix and different version of nodeJS (e.g)
+    strategy:
+      matrix:
+        node-version: [10.x, 12.x, 14.x]
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+    - run: | 
+        echo "hello world"
+        echo test, and deploy your project.
+
+        
