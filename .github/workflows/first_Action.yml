@@ -1,5 +1,4 @@
 # This is a basic workflow to help you get started with Actions
-
 name: My First Action
 
 # Controls when the action will run. Triggers the workflow on push or pull request
@@ -34,6 +33,15 @@ jobs:
       run: |
         echo Hello, world!
         echo My name is $fullname but I go by $name
+        echo Actor: ${{ github.actor }}
+        echo This code was committed by: ${{ github.event.commits[0].author.name }}
+        
+  show_context:
+    runs-on: ubuntu-latest
+    steps:
+      - env:
+          GITHUB_CONTEXT: ${{ toJson(github) }}
+        run: echo "$GITHUB_CONTEXT"
       
   # This is "deploy" that's responsable for deploying our app
   deploy:
