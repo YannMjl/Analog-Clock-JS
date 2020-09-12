@@ -6,6 +6,12 @@ This is a practical demo of JavaScript concepts, HTML, and CSS to create a worki
 
 ![Analog Clock](./img/clock.gif)
 
+## Demo links
+
+* **[Dev env](https://github.com/YannMjl)**
+* **[Test env](https://github.com/YannMjl)**
+* **[Prod env](https://github.com/YannMjl)**
+
 ## Author
 
 * **[Yann Mulonda](https://github.com/YannMjl)**
