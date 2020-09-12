@@ -8,9 +8,9 @@ This is a practical demo of JavaScript concepts, HTML, and CSS to create a worki
 
 ## Demo links
 
-* **[Dev env](https://github.com/YannMjl)**
-* **[Test env](https://github.com/YannMjl)**
-* **[Prod env](https://github.com/YannMjl)**
+* **[Dev env](https://clock-dev.netlify.app/)**
+* **[Test env](https://clock-test.netlify.app/)**
+* **[Prod env](https://clock-prod.netlify.app/)**
 
 ## Author
 
