@@ -6,7 +6,7 @@
 
 ![Analog Clock](./img/clock.gif)
 
-## Demo links
+## Environment links
 
 * **[Dev env](https://clock-dev.netlify.app/)**
 * **[Test env](https://clock-test.netlify.app/)**
